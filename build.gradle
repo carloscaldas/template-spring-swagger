@@ -22,7 +22,8 @@ apply plugin: 'com.github.kt3k.coveralls'
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = 1.8
+sourceCompatibility = JavaVersion.VERSION_11
+//targetCompatibility = 1.11
 
 repositories {
     mavenCentral()
